@@ -10,6 +10,7 @@
     "outDir": "./build",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "sourceMap": true
+    "sourceMap": true,
+    "rootDir": "./src"  // Add this line to specify where the TypeScript source files are located
   }
 }
