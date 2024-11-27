@@ -27,6 +27,7 @@
     "typeorm": "0.2.7"
   },
   "scripts": {
+    "prebuild": "yarn build:api",
     "dev:api": "nodemon",
     "build:api": "./node_modules/.bin/tsc",
     "prod:serve": "node build/index.js",
