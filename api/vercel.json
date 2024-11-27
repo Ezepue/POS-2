@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "api/build/index.js",
+      "src": "api/src/index.ts", 
       "use": "@vercel/node",
       "config": {
         "tsconfig": "tsconfig.json"
