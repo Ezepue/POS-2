@@ -49,7 +49,8 @@
     "start:web": "cross-env REACT_APP_IS_PROD=true  cross-env REACT_APP_PROD_URL_PREFIX='https://easy-pos-pearl.vercel.app/api' yarn run dev:web",
     "start:api": "cd api && yarn start",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "vercel-build": "react-scripts build"
   },
   "browserslist": {
     "production": [
