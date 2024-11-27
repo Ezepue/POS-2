@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "api/build/index.js",  // Use the compiled JavaScript file here
+      "src": "api/build/index.js",
       "use": "@vercel/node",
       "config": {
         "tsconfig": "tsconfig.json"
@@ -12,7 +12,7 @@
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "/api/build/index.js"  // Updated to point to the JS file in the build directory
+      "dest": "/api/build/index.js"
     }
   ]
 }
